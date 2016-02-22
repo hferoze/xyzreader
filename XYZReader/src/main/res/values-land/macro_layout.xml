@@ -1,0 +1,26 @@
+<resources>
+    <!-- grid -->
+
+    <dimen name="cardview_layout_height">160dp</dimen>
+
+    <dimen name="appbar_layout_height">80dp</dimen>
+
+    <dimen name="grid_text_padding">4dp</dimen>
+    <dimen name="grid_text_padding_left">4dp</dimen>
+
+    <integer name="grid_column_count">2</integer>
+
+    <!-- detail -->
+
+    <dimen name="detail_text_framelayout_padding_left">56dp</dimen>
+    <dimen name="detail_text_framelayout_padding_right">56dp</dimen>
+
+    <dimen name="detail_text_layout_linearlayout_marginLeft">56dp</dimen>
+    <dimen name="detail_text_layout_linearlayout_marginRight">56dp</dimen>
+
+    <item name="detail_title_line_spacing_multiplier" format="float" type="fraction">0.9</item>
+
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.1</item>
+
+    <integer name="detail_coordinator_layout_overlay_factor">3</integer>
+</resources>

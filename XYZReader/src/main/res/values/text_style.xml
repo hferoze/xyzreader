@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ListTextStyle" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">@integer/text_shadow_dx</item>
+        <item name="android:shadowDy">@integer/text_shadow_dy</item>
+        <item name="android:shadowRadius">@integer/text_shadow_radius</item>
+        <item name="android:textColor">@color/theme_text_color_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/grid_text_padding</item>
+        <item name="android:paddingLeft">@dimen/grid_text_padding_left</item>
+        <item name="android:paddingTop">@dimen/grid_text_padding</item>
+        <item name="android:paddingRight">@dimen/grid_text_padding</item>
+        <item name="android:paddingEnd">@dimen/grid_text_padding</item>
+        <item name="android:paddingStart">@dimen/grid_text_padding</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:fontFamily">sans-serif-thin"</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="DetailMetaBarTextStyle" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">@integer/text_shadow_dx</item>
+        <item name="android:shadowDy">@integer/text_shadow_dy</item>
+        <item name="android:shadowRadius">@integer/text_shadow_radius</item>
+        <item name="android:textColor">@color/theme_text_color_title</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/detail_metabar_title_bottom_padding</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:paddingTop">@dimen/grid_text_padding</item>
+         <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+</resources>

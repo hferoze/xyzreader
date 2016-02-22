@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">XYZ Reader</string>
+    <string name="action_share">Share</string>
+
+    <string name="app_title_main">XYZ</string>
+    <string name="app_title_ext">reader</string>
+
+    <string name="test_text">TEST</string>
+
+    <!--List Activity-->
+    <string name="list_fragment_tag">list_fragment</string>
+    <string name="detail_fragment_tag">detail_fragment</string>
+
+    <!--List Fragment-->
+    <string name="gridview_saved_instance_ext">gridview_saved_instance</string>
+    <string name="data_unavailable">Data unavailable</string>
+
+    <!-- Anim interm Fragment and List Fragment -->
+    <string name="anim_interm_read_txt">read</string>
+
+    <string name="author_ext">author_ext</string>
+    <string name="date_ext">date_ext</string>
+    <string name="title_ext">title_ext</string>
+    <string name="image_uri_ext">image_uri</string>
+
+</resources>

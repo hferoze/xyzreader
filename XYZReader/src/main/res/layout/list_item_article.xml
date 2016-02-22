@@ -1,0 +1,53 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:parallax="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/list_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/cardview_layout_height"
+    android:layout_margin="@dimen/cardview_layout_margin"
+    android:clickable="true"
+    android:focusable="true"
+    card_view:cardCornerRadius="@dimen/cardview_layout_corner_radius"
+    android:foreground="?selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--suppress AndroidLintContentDescription -->
+        <com.example.xyzreader.ui.ParallaxRecyclerViewImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/photo_placeholder"
+            android:scaleType="centerCrop"
+            app:parallaxFactor="@fraction/grid_image_view_parallax_factor"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.15"
+            android:background="@color/black"></View>
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/ListTextStyle"
+            android:maxLines="@integer/grid_title_max_lines"
+            android:singleLine="true"
+            android:textColor="@color/theme_text_color_subtitle"
+            android:fontFamily="sans-sarif"
+            android:textSize="@dimen/grid_subtitle_text_size" />
+
+        <TextView
+            android:id="@+id/article_title"
+            style="@style/ListTextStyle"
+            android:layout_below="@id/article_subtitle"
+            android:maxLines="4"
+            android:textColor="@color/theme_text_color_title"
+            android:textSize="@dimen/grid_title_text_size"
+            android:fontFamily="sans-sarif"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="ParallaxRecyclerViewImageView">
+        <attr format="float" name="parallaxFactor" />
+    </declare-styleable>
+</resources>

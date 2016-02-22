@@ -1,0 +1,42 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <color name="photo_placeholder">#ccc</color>
+
+    <color name="theme_primary_light">#CFD8DC</color>
+    <color name="theme_primary">#607D8B</color>
+    <color name="theme_primary_dark">#455A64</color>
+    <color name="theme_accent">#e0775f</color>
+
+    <color name="theme_text_color_title">@color/white</color>
+    <color name="theme_text_color_subtitle">@color/white</color>
+    <color name="theme_text_color_primary">#212121</color>
+    <color name="theme_text_color_secondary">#727272</color>
+
+    <color name="btn_pressed">#ab6252</color>
+    <color name="blue06">#24ADDE</color>
+    <color name="purple06">#BA75DC</color>
+    <color name="green06">#8ABD00</color>
+    <color name="orange06">#FFAE18</color>
+    <color name="red06">#F03131</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey100">#F5F5F5</color>
+    <color name="grey300">#E0E0E0</color>
+    <color name="teal200_transparent">#33B0BEC5</color>
+</resources>

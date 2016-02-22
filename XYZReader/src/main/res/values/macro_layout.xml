@@ -1,0 +1,57 @@
+<resources>
+    <!-- grid -->
+
+    <dimen name="cardview_layout_height">200dp</dimen>
+    <dimen name="cardview_layout_margin">0dp</dimen>
+    <dimen name="cardview_layout_corner_radius">0dp</dimen>
+
+    <dimen name="appbar_layout_height">100dp</dimen>
+
+    <dimen name="app_title_main_text_size">36sp</dimen>
+    <dimen name="app_title_ext_text_size">30sp</dimen>
+
+    <integer name="grid_title_max_lines">1</integer>
+    <dimen name="grid_subtitle_text_size">14sp</dimen>
+    <dimen name="grid_title_text_size">20sp</dimen>
+
+    <dimen name="grid_text_padding">4dp</dimen>
+    <dimen name="grid_text_padding_left">4dp</dimen>
+
+    <integer name="grid_column_count">1</integer>
+
+    <item name="grid_image_view_parallax_factor" format="float" type="fraction">0.5</item>
+
+    <!-- detail -->
+
+    <dimen name="detail_text_framelayout_padding_left">8dp</dimen>
+    <dimen name="detail_text_framelayout_padding_right">8dp</dimen>
+
+    <dimen name="detail_text_layout_cardview_margin">8dp</dimen>
+
+    <dimen name="detail_text_layout_linearlayout_marginTop">24dp</dimen>
+    <dimen name="detail_text_layout_linearlayout_marginLeft">28dp</dimen>
+    <dimen name="detail_text_layout_linearlayout_marginRight">28dp</dimen>
+    <dimen name="detail_text_layout_linearlayout_marginBottom">64dp</dimen>
+
+    <dimen name="detail_title_text_size">26sp</dimen>
+    <item name="detail_title_line_spacing_multiplier" format="float" type="fraction">0.9</item>
+
+    <item name="detail_body_line_spacing_multiplier" format="float" type="fraction">1.1</item>
+
+    <dimen name="detail_metabar_title_top_margin">16dp</dimen>
+    <dimen name="detail_metabar_title_bottom_margin">4dp</dimen>
+    <dimen name="detail_metabar_title_bottom_padding">4dp</dimen>
+
+    <dimen name="detail_body_text_size">18sp</dimen>
+    <dimen name="detail_body_top_margin">16dp</dimen>
+    <dimen name="detail_body_bottom_margin">64dp</dimen>
+
+    <dimen name="detail_toolbar_top_margin">20dp</dimen>
+
+    <dimen name="fab_elevation">6dp</dimen>
+    <dimen name="fab_press_translation_z">12dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <integer name="detail_coordinator_layout_overlay_factor">4</integer>
+
+</resources>
